@@ -45,6 +45,10 @@ body {
 .alignitemCenter {
     align-items: center;
 }
+#red {
+    color: red;
+    padding:20px;
+}
 /* HEADER  */
 header {
     height:70px;
@@ -75,7 +79,7 @@ header {
 .container {
     width: 90%;
     margin:1em auto;
-    height:calc(100vh - 120px);
+    height:calc(100vh - 163px);
 
 }
 .figure {
@@ -99,7 +103,7 @@ header {
 
 /* Footer */
 footer {
-    height:50px;
+    height:60px;
     width: 100%;
     background-color:#222222;
     font-size: 15px;
@@ -109,4 +113,7 @@ footer {
     width: 100%;
     height: 100%;
 } 
+.fa-share-from-square {
+    color: lightgreen;
+}
 
