@@ -3,12 +3,43 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:Arial;
+    font-family:Arial, Helvetica, sans-serif;
 }
 body {
     background-color: black;
 }
+/* REGOLE FLEX */
+.flex {
+    display: flex;
+}
+.jtfcontFlexend {
+    justify-content:flex-end;
+}
+
 /* HEADER  */
 header {
-    header:70px;
+    height:70px;
 }
+.header {
+    height: 50%;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+.fa solid {
+    color: white;
+    width: 30px;
+}
+.bgGray {
+    background-color:#4a4a4a;
+}
+.pad5 {
+    padding:5px;
+}
+.borderCircle {
+    border-radius: 7px;
+}
+
+.header span {
+    margin:0 3px;
+} 
