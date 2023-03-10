@@ -14,6 +14,9 @@ body {
 .padR10 {
     padding: 0 6px;
 } 
+.overflowYauto {
+    overflow-y: auto;
+}
 /* REGOLE FLEX */
 .flex {
     display: flex;
@@ -67,7 +70,7 @@ header {
     background-color:#4a4a4a;
 }
 .pad5 {
-    padding:5px;
+    padding:5px;                        
 }
 .borderCircle {
     border-radius: 7px;
@@ -79,8 +82,9 @@ header {
 .container {
     width: 90%;
     margin:1em auto;
+    /* 
     height:calc(100vh - 163px);
-
+     */
 }
 .figure {
     width: calc(100% / 7 - 9px);
